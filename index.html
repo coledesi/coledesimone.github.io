@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+  <div class="content-wrapper">
+    <nav id="desktop-nav">
+      <div class="logo">Cole DeSimone</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Cole DeSimone</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.jpg" alt="Cole DeSimone profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Cole DeSimone</h1>
+        <p class="section__text__p2">Engineer Innovator | Process Improvement & Mechanical Design</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Cole_DeSimone_Resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https:www.linkedin.com/in/cole-desimone'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/'"
+          />
+        </div>
+      </div>
+    </section>
+    
+
+    
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="asection__pic-container">
+          <img
+            src="./assets/about_me.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>3 years <br />Internship Experience</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.S. Aerospace Engineering<br />LEAN Six-Sigma Green Belt</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+             I’ve always been fascinated by how things work, and more importantly how they can work better. As an Aerospace Engineering student with experience in industrial automation and mechanical design, I develop solutions that make engineering processes smarter, faster, and more efficient. Whether I am bringing ideas to life in SolidWorks or automating processes and optimizing systems through code, I enjoy turning engineering challenges into practical, convienient solutions that make a measurable impact.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+
+
+
+
+      
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Engineering Toolbox</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Software Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Solidworks</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MATLAB</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />  <div>
+                  <h3>Siemens NX</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Linux</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Power BI</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Prusa Slicer</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Arduino</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>VBA/Macros</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Technical Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Process Optimization</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>LEAN Manufacturing</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Standardized Work</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>3D Printing</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Digital Twin Development</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Design for Manufacturing</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+    /></section>
+
+    
+<!-- Projects Section Header -->
+
+ <section id="projects">
+      <p class="section__text__projects">Explore my </p>
+      <h1 class="projects-title">Featured Projects</h1>
+
+<!-- GD Standard Work Section Header -->
+<div class="psection-container">
+        <div class="project-details-container">
+          <div class="project-containers">
+             <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Work Blocks and Standard Work</h3>
+              <p>Industrial Engineering Intern @ General Dynamics Land Systems</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Skills Applied</h3>
+              <p>Manpower Assignments<br />LEAN Manufacturing<br/>Process Optimization</p>
+            </div>
+          </div>
+         <div class="bonsai-flex">
+  <div class="bonsai-section">
+    <ul>
+      <h3>Inspiration and Objective:</h3>
+      <t>At General Dynamics, I observed that cycle times for certain stations were extremely long—ranging from 50 to 100 hours—which made it difficult to track progress and hold workers accountable. To address this, stations were broken into smaller sections called manpower assignments, each representing the amount of work that should be completed in a standard eight-hour shift to maintain production rate.
+
+These manpower assignments were carefully designed after conducting a full-cycle time study and analyzing line balancing charts to ensure workload was evenly distributed across shifts. Each assignment included images and visual guides showing exactly what needed to be completed, and tasks were further broken down into operations and individual steps for clarity and consistency.
+
+This approach allowed for precise tracking of vehicle progress, improved accountability for workers, and ensured that production rates could be met while making long, complex cycle times more manageable and transparent.</t>
+      <br>                                  </br>
+      <h3>Process and Results:</h3>
+      <li>Complied and filtered time study data to determine how long specific process took</li>
+      <li>Created line balancing charts in order to compare cycle times for different operations within a station</li>
+      <li>Adjusted the operations and collaborated with tool engineering to balance OPs</li>
+      <li>Split all of the OPs and steps into achievable shift long manpower assignments to increase accountability and repeatability</li>
+      <li>Collaborated with production to ensure that each workblock was feasible and efficient</li>
+    </ul>
+  </div>
+
+  <div class="WB_section__pic-container">
+    <img src="./assets/WorkBlocks.png" alt="Bonsai Picture" class="workblock-project-pic" />
+    <img src="./assets/Line_Balancing.png" alt="Bonsai Picture" class="workblock-project-pic" />
+  </div>
+</div>
+
+<div class="image-txt-section">
+   <c>(The images shown are stock images that share the essence<br/> since I cannot share GDLS proprietary information.)</c>
+</div>
+<!-- GD Standard Work Section Header END -->
+
+<!-- Digital Twin Project Section -->
+<div class="psection-container">
+        <div class="project-details-container">
+          <div class="project-containers">
+             <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Digital Twin Project</h3>
+              <p>Manufacturing Engineering Intern @ Acutec Precision Aerospace</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Skills Applied</h3>
+              <p>Solidworks/CAD<br/>Workflow Optimization<br/>LEAN Manufacturing</p>
+            </div>
+          </div>
+         <div class="bonsai-flex">
+  <div class="bonsai-section">
+    <ul>
+      <h3>Inspiration and Objective:</h3>
+      <t>After lunch one day, my boss stepped out and left me with a task: explore software options for building digital twins. Instead of waiting for instructions, I took initiative and turned to the familiar software of Solidworks and began experimenting with modeling, simulating, and linking components to approximate a digital twin. By the end of the day, I had a working prototype that demonstrated the concept, showing that familiar tools could be adapted to new challenges. This experience reinforced my belief in proactive problem-solving and using what you know to push projects forward.</t>
+      <br>                                  </br>
+      <h3>Process and Results:</h3>
+      <li>Designed and created four fully scaled digital twins from scratch for all Actuec’s facilities</li>
+      <li>Ensured accuracy and usability of each digital twin to support planning, visualization, and process optimization.</li>
+      <li>Demonstrated ability to adapt familiar tools to new challenges and deliver tangible results independently.</li>
+      <li>Experimented with modeling, simulation, and component linking to replicate facility behavior in a virtual environment.</li>
+    </ul>
+  </div>
+
+  <div class="digitaltwin_section__pic-container">
+    <img src="./assets/Digital_Twin.png" alt="Digital Twin Picture" class="digitaltwin-project-pic" />
+    <img src="./assets/DigitalTwin2.png" alt="Digital Twin Picture" class="digitaltwin-project-pic" />
+  </div>
+</div>
+<!-- Digital Twin Section END -->
+
+<!-- Bonsai Project Section -->
+<div class="psection-container2">
+        <div class="project-details-container">
+          <div class="project-containers">
+             <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Bonsai Care Project</h3>
+              <p>Personal Project</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Skills Applied</h3>
+              <p>Arduino sensor IO<br />3D Printing & Prusa Slicer<br/>Solidworks</p>
+            </div>
+          </div>
+         <div class="bonsai-flex">
+  <div class="bonsai-section">
+    <ul>
+      <h3>Inspiration and Objective:</h3>
+      <t>It all started when I came across a small bonsai tree at Trader Joe’s. I bought it on impulse, drawn to its miniature beauty and sense of calm, but within the first week, its leaves began to wilt. Watching it decline sparked a mix of frustration and curiosity, and I realized I could approach this not just as a plant owner, but as an engineer. What began as an aesthetic purchase quickly evolved into an engineering challenge: how could I design a controlled environment to monitor and optimize the health of a living system? </t>
+      <br>                                  </br>
+      <h3>Process and Results:</h3>
+      <li>Researched ideal growing conditions for ficus Bonsai and purchased desired sensors.</li>
+      <li>Integrated sensor-based soil moisture, light, humidity, and temperature monitoring with Arduino</li>
+      <li>Created custom Arduino script to give alerts when optimal criteria are not met</li>
+      <li>Used Solidworks and Prusa Slicer to design and 3D print a custom shelf to house the grow light</li>
+      <li>Documented growth progression through detailed photography and care notes.</li>
+    </ul>
+  </div>
+
+  <div class="bonsai_section__pic-container">
+    <img src="./assets/Bonsai.jpg" alt="Bonsai Picture" class="bonsai-project-pic" />
+    <img src="./assets/Full Bonsai.jpg" alt="Bonsai Picture" class="bonsai-project-pic" />
+    <img src="./assets/Bonsai_Environment.jpeg" alt="Bonsai Picture" class="bonsai-project-pic" />
+  </div>
+</div>
+<!-- Bonsai Project Section End -->
+
+<!-- More Project Section Buttons -->
+ <section id="projects">
+      <h1 class="more__text__projects">View more of my Work</h1>
+
+<div class="project-buttons">
+    <a href="projects-acutec.html" class="btn1">Acutec Projects</a>
+    <a href="GDLS-Projects.html" class="btn1">GDLS Projects</a>
+    <a href="personal-projects.html" class="btn1">Personal Projects</a>
+</div>
+</section>
+    <!-- End Project Section Buttons -->
+
+
+    <!-- Contac me Section -->
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">coledesi@buffalo.edu</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Cole DeSimone. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </div>
+  </body>
+</html>
+
