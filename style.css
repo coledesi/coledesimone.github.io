@@ -541,7 +541,7 @@ article .icon {
   color: rgb(85, 85, 85);
   margin-top: -220px;
   margin-bottom: 20px;
-  transform: translate(360px,150px);
+  transform: translate(360px, 150px);
 }
 
 /* Work Block SECTION */
@@ -695,6 +695,39 @@ article .icon {
   object-fit: cover;
   transform: translate(50px, -190px);
 }
+
+/* One Piece Flow Section */
+.OP_section__pic-container {
+  height: 250px;
+  width: 250px;
+  margin: auto 0;
+  flex: 1 1 40%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.OPFlow-pic {
+  width: 220%;
+  max-width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  object-fit: cover;
+  transform: translate(50px, -150px);
+} 
+
+.Curr-drawing-pic {
+  width: 220%;
+  max-width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  object-fit: cover;
+  transform: translate(50px, -150px);
+} 
+/* One Piece Flow SECTION */
+
+
 /*  PROJECT BUTTONS */
 
 .project-buttons {
@@ -756,6 +789,8 @@ article .icon {
 .email-icon {
   height: 2.5rem;
 }
+
+
 
 /* FOOTER SECTION */
 
