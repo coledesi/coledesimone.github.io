@@ -172,8 +172,8 @@ a:hover {
 /* SECTIONS */
 
 section {
-  padding-top: 22vh;
-  height: 70vh;
+  padding-top: 12vh;
+  height: 90vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
